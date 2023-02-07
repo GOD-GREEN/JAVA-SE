@@ -11,7 +11,7 @@ import static VIEW.Menu.login1;
 import static VIEW.Menu.mainMenu;
 
 public class UserController extends Users implements IUpdate {
-    private String patch = "/home/godgreen_sk/pCloudDrive/JAVA/JAVA SE/Saida/Users.dat";
+    private String patch = "/home/godgreenn_sk/Documents/Tests/Users.dat";
     public String login;
     protected int pass, confirm;
 
@@ -62,9 +62,7 @@ public class UserController extends Users implements IUpdate {
             } else {
                 System.out.println("\n\n\n\n\n\nAs senhas não coincidem!");
 
-
             }
-
         }
     }
 
